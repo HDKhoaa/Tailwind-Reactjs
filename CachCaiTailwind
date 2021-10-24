@@ -1,1 +1,17 @@
+Cài notejs  https://nodejs.org/en/download/
+bật terminal gõ: npm install -g (đang lỗi)
+    Tạo một file bất kì và mở lên bằng visual studio code
+bật studio code click chuột phải vào thư mục đó bật terminal
 
+    - sau khi bật terminal gõ : npm init - y
+    - tiếp tục gõ : npm install -D taiwindcss postcss autoprefixer vite (đợi)
+    - tiếp tục gõ : npx tailwindcss init -p
+    - sau khi đã chạy những lệnh trên thì ta sẽ có được một file package.json
+    - chữ test đổi thành chữ dex đoạn bên cạnh bỏ và thay bằng vite (lưu)
+    - quay lại terminal của visual gõ :npm run dev
+    - tạo một thư mục css/tailwind.css 
+    - trong thư mục css/tailwind.css gõ :@tailwin base; , @tailwind components; , @tailwind utilities;
+    - tiếp tục : npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css (đợi)
+    - sau khi có chạy xong lệnh trên ta sẽ có được 1 thư mục tên là build/tailwind.css
+    - để dùng tailwind thì ta : <link rel="stylesheet" href="./build/tailwind.css" />
+    để chạy file html dùng npm run dev
