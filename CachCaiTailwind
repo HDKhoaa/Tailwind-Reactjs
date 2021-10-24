@@ -10,7 +10,7 @@ bật studio code click chuột phải vào thư mục đó bật terminal
     - chữ test đổi thành chữ dex đoạn bên cạnh bỏ và thay bằng vite (lưu)
     - quay lại terminal của visual gõ :npm run dev
     - tạo một thư mục css/tailwind.css 
-    - trong thư mục css/tailwind.css gõ :@tailwin base; , @tailwind components; , @tailwind utilities;
+    - trong thư mục css/tailwind.css gõ :@tailwind base;  @tailwind components;  @tailwind utilities;
     - tiếp tục : npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css (đợi)
     - sau khi có chạy xong lệnh trên ta sẽ có được 1 thư mục tên là build/tailwind.css
     - để dùng tailwind thì ta : <link rel="stylesheet" href="./build/tailwind.css" />
