@@ -4,7 +4,7 @@ bật terminal gõ: npm install -g (đang lỗi)
 bật studio code click chuột phải vào thư mục đó bật terminal
 
     - sau khi bật terminal gõ : npm init - y
-    - tiếp tục gõ : npm install -D taiwindcss postcss autoprefixer vite (đợi)
+    - tiếp tục gõ : npm install -D tailwindcss postcss autoprefixer vite (đợi)
     - tiếp tục gõ : npx tailwindcss init -p
     - sau khi đã chạy những lệnh trên thì ta sẽ có được một file package.json
     - chữ test đổi thành chữ dex đoạn bên cạnh bỏ và thay bằng vite (lưu)
