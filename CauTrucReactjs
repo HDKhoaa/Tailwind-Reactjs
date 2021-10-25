@@ -1,0 +1,18 @@
+1. Node_modules: những package dc download về, danh sách các package nằm ở package.json : có 2 secsion
+            1: dependencies :danh sách các package cần import vào hệ thống gồm tên package và phiên bản, các lệnh trong phần này dùng để load các file ở Node_modules
+            2: scripts(main) : chứa 4 lệnh mặc định start, build, test, ejeact 
+                browserslist: trình duyệt được phép chạy (có thể chỉnh sửa tùy vào yêu cầu)
+2. Public :chứa các file thành phần tĩnh vd như các file html, logo,css
+    1. file html chứa id="rood" là cái mà ứng dụng react sẽ được đẩy vào sau khi build trực tiếp 
+    2. mainifest.json : chứa thông tin về  meta, data của app
+    3. robots.txt : để hỗ trợ 
+3. src : thư mực source code chính của ứng dụng 
+    1. app.js: khai báo 1 function, obj dùng để return đoạn jsx (không phải là html vì html là class còn jsx là className) dùng để quy định css được improt vào
+    2. index : là emtypoint sẽ import app vào với tên là app và sẽ register, reactDOM.remder : dùng để render element vào id="rood" của file index.html
+    3. serviceWoker: các dịch vụ chạy ngầm (giúp app có thể làm việc offline đc)
+    4. index.css : là css của toàn bộ hệ thống 
+
+
+
+
+link yb :https://youtu.be/cLbBNrLGOss
