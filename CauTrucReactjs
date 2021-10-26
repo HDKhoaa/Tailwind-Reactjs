@@ -11,8 +11,13 @@
     2. index : là emtypoint sẽ import app vào với tên là app và sẽ register, reactDOM.remder : dùng để render element vào id="rood" của file index.html
     3. serviceWoker: các dịch vụ chạy ngầm (giúp app có thể làm việc offline đc)
     4. index.css : là css của toàn bộ hệ thống 
+    
+tạo thêm một thư mục có tên là components : thư mục này chứa những hàm code tái sử 
+
 
 import ReactDOM from 'react-dom' : them thu vien tu dau toi
+
+   
 
 
 
