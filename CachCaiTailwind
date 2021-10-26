@@ -16,3 +16,6 @@ bật studio code click chuột phải vào thư mục đó bật terminal
     - để dùng tailwind thì ta : <link rel="stylesheet" href="./build/tailwind.css" />
     để chạy file html dùng npm run dev ta sẽ có một link dẫn đến localhost:********
     còn k hiểu thì vào https://youtu.be/-VQhSM77_HA
+
+
+    extension : cài headwind, Tailwind CSS IntelliSense 2 cái này phải đi chung với nhau
