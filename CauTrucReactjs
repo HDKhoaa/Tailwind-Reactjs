@@ -12,6 +12,7 @@
     3. serviceWoker: các dịch vụ chạy ngầm (giúp app có thể làm việc offline đc)
     4. index.css : là css của toàn bộ hệ thống 
 
+import ReactDOM from 'react-dom' : them thu vien tu dau toi
 
 
 
