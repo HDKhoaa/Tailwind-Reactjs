@@ -19,3 +19,33 @@ bật studio code click chuột phải vào thư mục đó bật terminal
 
 
     extension : cài headwind, Tailwind CSS IntelliSense 2 cái này phải đi chung với nhau
+
+
+cách cài bằng cmd
+ - vào nơi muốn lưu trữ
+ - bật cmd của thư mục đó lên
+ - nhập npx create-react-app tên muốn tạo(đợi)
+ - vào visual studio code mở thư mục vừa tạo
+ - bật terminal của thư mục bằng visual nhập :npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+ -tiếp tục :npm install @craco/craco
+ - vào file package.json tìm và thay thế các code "start": "craco start",
+                                                  "build": "craco build",
+                                                  "test": "craco test",
+ 
+ - bật thư mục craco vừa tạo nhập :
+ module.exports = {
+  style: {
+    postcss: {
+      plugins: [
+        require('tailwindcss'),
+        require('autoprefixer'),
+      ],
+    },
+  },
+}
+- tiếp theo vào terminal của visual nhâp:npx tailwindcss-cli@latest init
+- vào file tailwind.config.js thay thế purge: [], -> purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+- vào ./src/index.css nhập :@tailwind base;
+                            @tailwind components;
+                            @tailwind utilities;
+- cuối cùng vào file src/index.js nhập : import './index.css';
